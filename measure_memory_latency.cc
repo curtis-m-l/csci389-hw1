@@ -11,7 +11,7 @@ for CSCI 389 Homework 1
 const int BUFFER_POWER_LOWER = 10;
 const int BUFFER_POWER_UPPER = 26;
 
-void init_buffer(int bufferSize, std::default_random_engine gen, char& buffer) {
+void init_buffer(int bufferSize, std::default_random_engine gen, char buffer[]) {
 	std::uniform_int_distribution<> distr(97, 122);
 	for (int i; i < bufferSize; i++) {
 		char entry = distr(gen);
