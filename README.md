@@ -1,5 +1,6 @@
-# csci389-hw1
-Problem #1:
+# Determining Cache Sizes Based On Buffer Read Times
+
+## Problem #1:
   While most of the specifics are explained in the body of measure_memory_latency.cc,
   the main ideas behind it are as follows:
 
@@ -19,7 +20,7 @@ Problem #1:
   to add each ascii value to the sum is also included in the time measurement,
   which may increase the result slightly.
 
-Problem #2:
+## Problem #2:
 
   ![](Screenshot%20(60).png)
 
@@ -44,7 +45,7 @@ Problem #2:
     2^27          12.2806
     2^28          18.8876
 
-Problem #3:
+## Problem #3:
 
 (1) Based on the above numbers, the L1 cache in my computer should be able to
     hold at least 2^17 bytes of data. (Assuming that an average read from L1
