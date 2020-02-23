@@ -21,6 +21,8 @@ Problem #1:
 
 Problem #2:
 
+  ![](screenshot.png)
+
     Bytes Read:   Time Taken Per Byte:
     2^10          0.6695
     2^11          0.6311
